@@ -1,10 +1,17 @@
 # Lexicon
-Every institution has examination held at particular interval. There are many courses and in each course there are number of student.
-The administrator need to count the total number students registered, and then he needs to select the rooms and divide the student among those rooms.
-He should also prepare sitting arrangement list for each room based upon the count. Its very time consuming and difficult for the administrator to make manually.		
+requirement: oracle 11g,
+              java jdk,
+jar files : rs2xml,ojdbc14,mysql-connector-java
 
-This system “EXAMINATION SEATING ARRANGEMENT” will allocate the student to their desire location automatically.
-The administrator need to provide only the number of rooms, details of the student in a simple excel sheet and number of student per room. 
-Based on administrator constraint this will generate sitting arrangements in automatic way on single click
+step-1:- To begin install oracle 11g and create 3 tables with table name CSETABLE,ECETABLE,EEETABLE and each table should have two columns  that is Name & roll number.
 
-This project developed in object oriented programming language(OOPS) and make use of database (Oracle 11g).
+step-2:-create 3 excel files which has data in it with name of student and rollnumber.
+
+step-3:-dump all files in eclipse IDE and jar files too.
+
+step-4:- run the application user name- exam ,password-ucet
+
+step-5:-you find 3 where 1.options upload file->upload CSETABLE->select file->ok similarly for ece and eee files.
+                         2.option  generate seating arrrangement->input necessary data->show arrangement
+                         3.option   show seating arrangement->print   // will print pattern .
+
